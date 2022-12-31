@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.7
         }
       },
       "diff_pair_dimensions": [
@@ -381,7 +381,9 @@
         "nets": [
           "+5V",
           "+5VD",
-          "+BATT"
+          "+BATT",
+          "Net-(F1-Pad1)",
+          "Net-(F1-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -405,7 +407,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -418,7 +420,7 @@
       "+5V": "rgb(197, 172, 0)",
       "+5VD": "rgb(227, 255, 56)",
       "+BATT": "rgb(243, 0, 0)",
-      "GND": "rgb(0, 0, 255)",
+      "GND": "rgb(255, 228, 0)",
       "VCC": "rgb(255, 8, 208)"
     }
   },
