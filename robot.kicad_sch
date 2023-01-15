@@ -2195,6 +2195,11 @@
     (uuid ff69fe25-4243-498f-8455-3162cfae5e1a)
   )
 
+  (text "between 230 and 500" (at 135.89 170.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c9da5175-24e5-4393-8c27-a2cb89933838)
+  )
+
   (label "IO_34" (at 71.12 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 00d90d30-9654-452d-83c6-a4b035fa0da8)
@@ -4650,6 +4655,9 @@
     (path "/78a56bae-3afa-4383-914f-3e74817e0e83/ad6c932e-7c6c-494b-ab7e-b3d7bbac3a8e"
       (reference "J10") (unit 1) (value "BATT out") (footprint "Connector_PinHeader_2.54mm:Connector_Battery_SolderPads")
     )
+    (path "/78a56bae-3afa-4383-914f-3e74817e0e83/11aa9fda-6794-4a5a-9d23-47eb9aa4dd78"
+      (reference "J11") (unit 1) (value "Vin") (footprint "Connector_PinHeader_2.54mm:Connector_Battery_SolderPads")
+    )
     (path "/0a4a922c-7e89-4477-837a-33d7e39618b5"
       (reference "JP1") (unit 1) (value "HEADER-3X04") (footprint "Adafruit:3X04")
     )
@@ -4756,7 +4764,7 @@
       (reference "SW4") (unit 1) (value "Flash") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
     )
     (path "/78a56bae-3afa-4383-914f-3e74817e0e83/0f47f35a-e446-4771-a968-01260f35d28d"
-      (reference "SW5") (unit 1) (value "POWER") (footprint "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q")
+      (reference "SW5") (unit 1) (value "POWER") (footprint "KiCAD Custom Libs:Switch-SS12F23")
     )
     (path "/78a56bae-3afa-4383-914f-3e74817e0e83/5678e00d-7048-4a0a-a8c6-a9585d7c80a9"
       (reference "TP1") (unit 1) (value "ONEWIRE_BUS") (footprint "TestPoint:TestPoint_Pad_D2.0mm")

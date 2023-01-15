@@ -2,3 +2,4 @@
 _autosave-robot.kicad_sch
 *-bak
 robot-backups/
+robot-backups/*
