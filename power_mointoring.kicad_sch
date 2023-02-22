@@ -1485,9 +1485,9 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/158457a.pdf" (id 3) (at 64.77 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid baea7614-59a3-4d4d-8197-65c6f3db5fdc))
     (pin "2" (uuid 529efc04-310a-4530-b4af-b0360aa45252))
     (pin "3" (uuid d0980738-e4a5-460a-8c66-46b0b7f59649))
-    (pin "1" (uuid baea7614-59a3-4d4d-8197-65c6f3db5fdc))
   )
 
   (symbol (lib_id "Device:C_Polarized") (at 88.9 39.37 0) (mirror y) (unit 1)
