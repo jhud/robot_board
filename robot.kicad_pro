@@ -119,7 +119,8 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.25
       ],
       "via_dimensions": [
         {
@@ -380,7 +381,9 @@
         "name": "Hi current",
         "nets": [
           "+5V",
+          "+5VA",
           "+5VD",
+          "+5VL",
           "+BATT",
           "Net-(F1-Pad1)",
           "Net-(F1-Pad2)"
@@ -485,6 +488,10 @@
     [
       "e5978b14-44ae-4b29-b1cb-9f6153659d99",
       "Ports"
+    ],
+    [
+      "69ddaad4-6a4d-496c-81a2-3d2ec8ddf76d",
+      "servos"
     ]
   ],
   "text_variables": {}
