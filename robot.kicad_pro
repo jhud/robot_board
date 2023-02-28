@@ -431,7 +431,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "../../Downloads/robot_board.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -481,6 +481,10 @@
     [
       "78a56bae-3afa-4383-914f-3e74817e0e83",
       "Power monitoring"
+    ],
+    [
+      "e5978b14-44ae-4b29-b1cb-9f6153659d99",
+      "Ports"
     ]
   ],
   "text_variables": {}
