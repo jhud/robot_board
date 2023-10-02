@@ -1,3 +1,9 @@
+![robot image](/images/robot.jpg)
+Render of board rev 2
+
+![robot board](/images/robot_2.jpg)
+Board in action
+
 # Robot controller board
 
 Controller board for building servo-based robots, such as hexapods.
@@ -28,6 +34,11 @@ With standard plugin modules installed in sockets:
 - infrared beacon detection
 - inertial measurement unit
 - extra PWM channels
+
+See it running here:
+
+[![Robot vid](https://img.youtube.com/vi/hFirgdrsIpw/0.jpg)]([https://www.youtube.com/watch?v=hFirgdrsIpw](https://www.youtube.com/watch?v=hFirgdrsIpw) "Robot vid")
+
 
 
 ## Revisions
