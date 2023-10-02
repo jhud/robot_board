@@ -35,11 +35,9 @@ With standard plugin modules installed in sockets:
 - inertial measurement unit
 - extra PWM channels
 
-See it running here:
+See it running here (video):
 
-[![Robot vid](https://img.youtube.com/vi/hFirgdrsIpw/0.jpg)]([https://www.youtube.com/watch?v=hFirgdrsIpw](https://www.youtube.com/watch?v=hFirgdrsIpw) "Robot vid")
-
-
+[![Robot vid](https://img.youtube.com/vi/hFirgdrsIpw/0.jpg)]([http://www.youtube.com/watch?v=hFirgdrsIpw](https://www.youtube.com/watch?v=hFirgdrsIpw) "Hanging out with my robot and asking it to do things")
 
 ## Revisions
 
