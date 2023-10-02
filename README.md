@@ -37,7 +37,9 @@ With standard plugin modules installed in sockets:
 
 See it running here (video):
 
-[![Robot vid](https://img.youtube.com/vi/hFirgdrsIpw/0.jpg)]([http://www.youtube.com/watch?v=hFirgdrsIpw](https://www.youtube.com/watch?v=hFirgdrsIpw) "Hanging out with my robot and asking it to do things")
+![Hanging out with my robot and asking it to do things](https://img.youtube.com/vi/hFirgdrsIpw/0.jpg)
+
+[http://www.youtube.com/watch?v=hFirgdrsIpw](https://www.youtube.com/watch?v=hFirgdrsIpw)
 
 ## Revisions
 
