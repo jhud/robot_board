@@ -1,12 +1,9 @@
-![robot image](/images/robot.jpg)
-Render of board rev 2
-
-![robot board](/images/robot_2.jpg)
-Board in action
-
 # Robot controller board
 
 Controller board for building servo-based robots, such as hexapods.
+
+![robot image](/images/robot.jpg)
+Render of board rev 2
 
 This project was designed to allow rapid prototyping of different types of servos and sensors for walking robots: it's easy to switch out different sensors, and I2C buses are exposed for adding standard plugin components, such as those from Adafruit. But the board could be used for any projects needing a lot of servos.
 
@@ -15,6 +12,9 @@ The main benefit of this over a standard Arduino is the number of PWM pins and t
 You should be able to get a standard "spiderbot" Arduino sketch running on this hardware quite easily: I'll shortly publish some test sketches and controller firmware.
 
 Have fun!
+
+![robot board](/images/robot_2.jpg)
+Board in action
 
 
 ## Features
@@ -35,9 +35,10 @@ With standard plugin modules installed in sockets:
 - inertial measurement unit
 - extra PWM channels
 
-See it running here:
+See it running here (video):
 
-[![Robot vid](https://img.youtube.com/vi/hFirgdrsIpw/0.jpg)]([https://www.youtube.com/watch?v=hFirgdrsIpw](https://www.youtube.com/watch?v=hFirgdrsIpw) "Robot vid")
+![Hanging out with my robot and asking it to do things](https://img.youtube.com/vi/hFirgdrsIpw/0.jpg)
+[http://www.youtube.com/watch?v=hFirgdrsIpw](https://www.youtube.com/watch?v=hFirgdrsIpw)
 
 
 ## Building it
