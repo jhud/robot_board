@@ -40,6 +40,16 @@ See it running here:
 [![Robot vid](https://img.youtube.com/vi/hFirgdrsIpw/0.jpg)]([https://www.youtube.com/watch?v=hFirgdrsIpw](https://www.youtube.com/watch?v=hFirgdrsIpw) "Robot vid")
 
 
+## Building it
+
+### ESP32 CAM
+
+The ESP32 CAM module can run on 3.3v or 5v. If you are getting freezes and dropped frames from the camera, try running it from the robot's 5v rail instead of 3.3v.
+
+The ESP32 CAM has a XC6206-2.8V regulator after its 3.3v regulator, and this component has a dropout voltage up to ~500mV according to the specs. My hypothesis is that the camera crashes on slight undervoltages.
+
+So the 3.3v rail must be rock solid - this may not be the case with your regulator, so it's generally recommended to run the ESP32 CAM off the 5v rail. Even with many noisy servos, the camera works fine on the robot on the 5v rail.
+
 
 ## Revisions
 
