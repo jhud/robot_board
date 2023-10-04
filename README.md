@@ -52,6 +52,11 @@ The ESP32 CAM has a XC6206-2.8V regulator after its 3.3v regulator, and this com
 So the 3.3v rail must be rock solid - this may not be the case with your regulator, so it's generally recommended to run the ESP32 CAM off the 5v rail. Even with many noisy servos, the camera works fine on the robot on the 5v rail.
 
 
+### Pullup resistors
+
+Pullups can vary between 2K and 10K - if there are problems communicating with I2C, try reducing the pullups. Higher pull-ups waste less power.
+
+
 ## Revisions
 
 Note that the main branch is a work in progress: please take an earlier revision if you want a working layout. These are tested and working (with some minor noise issues and a couple of bodge wires needed).
